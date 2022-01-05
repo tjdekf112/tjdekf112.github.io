@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html lang="ko" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+
+    <!-- Definition -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="max-age=3000, must-revalidate">
+    <!-- Description -->
+    <title>포트폴리오 | 벡엔드 개발자 최성석</title>
+    <meta name="description" content="back-end Dev Tae Hoon Kim's portfolio site.">
+    <meta name="keywords" content="HTML, CSS, Javascript, jQuery">
+    <meta name="author" content="TaeHoon Kim">
+    <meta name="robots" content="index, follow">
+    <!-- Facebook Open Graph Meta Tags -->
+    <meta property="og:title" content="포트폴리오 | 벡엔드 개발자 김태훈" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sksskaw.github.io/" />
+    <meta property="og:site_name" content="Clean Clever Web" />
+    <meta property="fb:admins" content="sksskaw" />
+    <meta property="fb:app_id" content="" />
+    <meta property="og:description" content="back-end Dev Tae Hoon Kim's portfolio site." />
+    <meta property="og:email" content="sksskaw@naver.com" />
+    <meta property="og:phone_number" content="+82-10-3780-4469" />
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@sksskaw">
+    <meta name="twitter:title" content="back-end Dev Tae Hoon Kim's portfolio site.">
+    <meta name="twitter:description" content="Designed to demonstrate my knowledge and skills about web design and implementation. Live demos and links to source codes are available.">
+    <!-- DNS prefetch -->
+    <link rel="dns-prefetch" hrefp="https://fonts.googleapis.com">
+    <!-- Subresource for critical sheets -->
+    <link rel="subresource" href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:300,400,500" as="style" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Preload animation script if possible, otherwise it will be loaded at the end of the page -->
+    <link rel="preload" href="./js/animation.js" as="script">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./img/favicons/manifest.json">
+    <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./img/favicons/favicon.ico">
+    <meta name="msapplication-config" content="./img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style>
+div.langImg{
+	float: left;
+	margin: 5px;
+}
+li.profile{
+	text-align: left;
+	font-size: 20px;
+}
+div.profile{
+	display: inline;
+}
+div.introduce{
+	float: left;
+	margin-left: 120px;
+}
+p.introduce{
+	text-align: left;
+}
+</style>	
+</head>
+<body>
+
+    <main role="main" id="page" class="l-page">
+	
+        <!-- 자기소개 -->
+        <div id="introduction" class="l-section l-split">
+
+            <!-- 소개말 -->
+            <section role="region" id="myself" class="l-section">
+                <div class="l-section-inner" data-animation="zoom-in-left">
+                    <h2 class="section-heading">
+                        <span class="secondary"></span>
+                        <span class="primary">PROFILE</span>
+                    </h2>
+					<div class="introduce" style="margin-top: 75px;"><img class="gallery-image-thumb" src="./img/profile.jpg" width="177" height="236"></div>
+                    <div class="section-content" style="margin-top: 75px;">
+                    	<figure>
+                            <figcaption class="list-caption">
+							</figcaption>
+                            <ul class="skill-list">
+                                <li class="profile">&nbsp;&nbsp;
+                                	<div class="profile"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                                	<div class="profile">Name :</div>
+                                	<div class="profile">최성석</div>
+                                </li>
+                                <li>&nbsp;</li>
+                                <li class="profile">&nbsp;&nbsp;
+	                                <div class="profile"><i class="fa fa-birthday-cake" aria-hidden="true"></i></div>
+	                                <div class="profile">&nbsp;Birth &nbsp;:</div>
+	                                <div class="profile">1997.05.16</div>
+                                </li>
+                                <li>&nbsp;</li>
+                                <li class="profile">&nbsp;&nbsp;
+                                	<div class="profile"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                                	<div class="profile">Phone :</div>
+                                	<div class="profile">010-8551-4937</div>
+                                </li>
+                                <li>&nbsp;</li>
+                                <li class="profile">&nbsp;&nbsp;
+                                	<div class="profile"><i class="fa fa-envelope-open" aria-hidden="true"></i></div>
+                                	<div class="profile">E-mail :</div>
+                                	<div class="profile">tjdekf112@naver.com</div>
+                                </li>
+                                <li>&nbsp;</li>
+                                <li class="profile">&nbsp;&nbsp;
+                                	<div class="profile"><i class="fab fa-github" aria-hidden="true"></i></div>
+                                	<div class="profile">Github :</div>
+                                	<div class="profile"><a style="color: white;" href="https://github.com/tjdekf112" target="_blank">https://github.com/tjdekf112</a></div>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                    <br>
+                    <div class="introduce">
+                    	<p class="introduce">현실에 안주하지 않고 늘 발전하는 백엔드 개발자 최성석입니다.</p>
+                    	<p class="introduce">&nbsp;기능을 구현하는 것도 중요하지만 트랜잭션 프로세스로 인해 시스템에 어떠한 영향을 끼치게 되는지 넓게 보며 개발하는 것이 중요하다고 생각합니다. 쿼리를 만들 때 최적화된 실행계획으로 처리가 되는지 한 번 더 생각해 보고 테스트를 통해 쿼리 수행 시간이 효율적인지 확인합니다.</p>
+                    	<p class="introduce">&nbsp;시스템을 안정적이고 효율적으로 개발하고 갑작스러운 트래픽 급증에도 에러 없이 서버 프로그램이 실행될 수 있는 유저가 쾌적한 서비스를 이용할 수 있는 그러한 서버를 개발하는 벡엔드 개발자가 목표입니다.</p>
+                    </div>
+                </div>
+                <br>
+            </section>
+            
+            <!-- 기술 -->
+            <section role="region" id="skills" class="l-section">
+                <div class="l-section-inner" data-animation="zoom-in-left">
+                    <h2 class="section-heading">
+                        <span class="secondary"></span>
+                        <span class="primary">SKILLS</span>
+                    </h2>
+
+                    <div class="section-content">
+                        <figure>
+                            <figcaption class="list-caption">Spring Boot</figcaption>
+                            <ul class="skill-list checked-list">
+                                <li>Spring MVC 서버 구축</li>
+                                <li>Spring REST API 구축</li>
+                                <li>Mybatis를 이용한 DB연동</li>
+                            </ul>
+                        </figure>
+
+                        <figure>
+                            <figcaption class="list-caption">JavaScript</figcaption>
+                            <ul class="skill-list checked-list">
+                                <li>Vanilla JavaScript</li>
+                                <li>jQuery</li>
+                                <li>AJAX 비동기 통신</li>
+                            </ul>
+                        </figure>
+                        
+                        <figure>
+                            <figcaption class="list-caption">DB</figcaption>
+                            <ul class="skill-list checked-list">
+                                <li>Maria DB</li>
+                                <li>Oracle</li>
+                                <li>DB 설계</li>
+                                <li>데이터 모델링</li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        
+        
+        <!-- 이력 -->
+        <div id="introduction" class="l-section l-split">
+
+            <!-- 학교 학원 -->
+            <section role="region" id="myself" class="l-section">
+                <div class="l-section-inner" data-animation="zoom-in-left">
+                    <h2 class="section-heading">
+                        <span class="secondary"></span>
+                        <span class="primary">EDUCATION</span>
+                    </h2>
+
+                    <div class="section-content">
+                        <figure>
+                            <figcaption class="list-caption">온양고등학교 졸업 <i class="fa fa-graduation-cap" aria-hidden="true"></i></figcaption>
+                            <ul class="skill-list checked-list">
+                                <li>2011.03 ~ 2014.02</li>
+                            </ul>
+                        </figure>
+
+                        <figure>
+                            <figcaption class="list-caption">남서울대학교 컴퓨터소프트웨어학과 졸업예정 <i class="fa fa-graduation-cap" aria-hidden="true"></i></figcaption>
+                            <ul class="skill-list checked-list">
+                                <li>2014.03 ~ 2021.02</li>
+                            </ul>
+                        </figure>
+                        
+                        <figure>
+                            <figcaption class="list-caption">구디아카데미 교육 수료예정 <i class="fa fa-graduation-cap" aria-hidden="true"></i></figcaption>
+                            <ul class="skill-list checked-list">
+                            	<li>자바/스프링 기반 SW개발자 양성과정 수료</li>
+                                <li>2021.08 ~ 2022.01</li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 자격 -->
+            <section role="region" id="skills" class="l-section">
+                <div class="l-section-inner" data-animation="zoom-in-left">
+                    <h2 class="section-heading">
+                        <span class="secondary"></span>
+                        <span class="primary">CERTIFICATE</span>
+                    </h2>
+
+                    <div class="section-content">
+                        <figure>
+                            <figcaption class="list-caption"><i class="fa fa-certificate" aria-hidden="true"></i> 운전면허 1종 보통</figcaption>
+                            <ul class="skill-list checked-list">
+                            	<li>-</li>
+                                <li>-</li>
+                            </ul>
+                        </figure>
+
+                        <figure>
+                            <figcaption class="list-caption"><i class="fa fa-certificate" aria-hidden="true"></i> 정보처리기사 준비중</figcaption>
+                            <ul class="skill-list checked-list">
+                            	<li>-</li>
+                                <li>-</li>
+                            </ul>
+                        </figure>
+                        
+                        <figure>
+                            <figcaption class="list-caption"><i class="fa fa-certificate" aria-hidden="true"></i> 파워포인트 자격증</figcaption>
+                            <ul class="skill-list checked-list">
+                            	<li>-</li>
+                                <li>-</li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- 작업물 -->
+        <section role="region" id="works" class="l-section">
+            <div class="l-section-holder">
+                <h2 class="section-heading" data-animation="fade-up">
+                    <span class="secondary">Portfolio</span>
+                    <span class="primary">My Projects</span>
+                </h2>
+                
+                <div id="portfolio" class="section-content gallery alternate">
+					<!-- 포트폴리오 엔트리: DVD대여점 -->
+                    <article role="article" id="work1" class="gallery-item" data-animation="fade-left">
+                        <figure role="group" class="gallery-figure">
+                            <div class="gallery-image">
+                                <img class="gallery-image-thumb" src="./img/cabbageImg.png" aria-describedby="work1Description">
+                            </div>
+                            <figcaption class="gallery-caption">
+                                <h3 class="gallery-title">cast(여행체험 예약 사이트)-></h3>
+                                <ul class="gallery-spec">
+                                	<li class="gallery-spec-item"><strong class="gallery-spec-key">진행기간</strong> <span class="gallery-spec-value">2021.06.25 - 2021.07.30(5주)</span></li>
+                                	<li class="gallery-spec-item"><strong class="gallery-spec-key">개발환경 OS</strong> <span class="gallery-spec-value">Window 10</span></li>
+                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">프로젝트 방식</strong> <span class="gallery-spec-value">SPRING MVC</span></li>
+                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">사용프로그램</strong> <span class="gallery-spec-value">SPRING TOOL SUITE 2.4.5, HEIDISQL 11.0.0.5919</span></li>
+                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">사용언어</strong>
+                                        <ul class="gallery-spec-value palette">
+                                            <li>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/pront.png" width="90" height="30"></div>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/java.png" width="30" height="30"></div>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/jquery.png" width="30" height="30"></div>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/mybatis.png" width="45" height="30"></div>
+											</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div id="work1Description">
+                                    <p><a href="https://sksskaw.kro.kr/cabbageMarket/index" target="_blank">배추마켓</a> 직거래, 중고거래, 경매거래를 안전거래로 이용할 수 있는 서비스 플랫폼입니다. 직거래 서비스 이용시 상품 판매자와 구매자간의 1:1 채팅을 통해 소통할 수 있습니다. WebSocket, Sockjs, STOMP를 이용하여 구현하였습니다.</p>
+                                </div>
+                                <div class="ui-group">
+                                	<a role="button" class="ui-button" href="https://docs.google.com/spreadsheets/d/11qIN430h5MnSW7Y5FBP6BJFH_ZdQnHjkeCk9pk-sVT0/edit#gid=87600587" target="_blank">요구사항 정의서</a>
+                                	<a role="button" class="ui-button" href="./img/cabbage_ERD.png" target="_blank">ERD</a>
+                                    <a role="button" class="ui-button" href="https://sksskaw.kro.kr/cabbageMarket/index" target="_blank">AWS</a>
+                                    <a role="button" class="ui-button" href="https://github.com/goodee-project/34_cabbageMarket" target="_blank">Git</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <table class="gallery-table">
+                            <thead>
+                                <tr>
+                                    <th class="gallery-table-col category">Category</th>
+                                    <th class="gallery-table-col source">Source</th>
+                                    <th class="gallery-table-col keywords">Related keywords</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            	<tr>
+                                    <td data-th="Category"><span class="categ js">Chatting</span></td>
+                                    <td data-th="Source">
+                                    	<a href="https://github.com/goodee-project/34_cabbageMarket/blob/master/cabbageMarket/src/main/webapp/WEB-INF/view/directTrade/getChattingRoomList.jsp" target="_blank">ChattingRoomList</a>/
+                                    	<a href="https://github.com/goodee-project/34_cabbageMarket/blob/master/cabbageMarket/src/main/webapp/WEB-INF/view/directTrade/getChattingRoomOne.jsp" target="_blank">ChattingRoomOne</a>/
+                                    	<a href="https://github.com/goodee-project/34_cabbageMarket/blob/master/cabbageMarket/src/main/java/com/gdj/cabbage/WebSocketConfig.java" target="_blank">WebSocketConfig</a>/
+                                    	<a href="https://github.com/goodee-project/34_cabbageMarket/blob/master/cabbageMarket/src/main/java/com/gdj/cabbage/controller/ChatController.java" target="_blank">ChatController</a>
+                                    </td>
+                                    <td data-th="Related Keywords">Jquery, Ajax, WebSocket, Sockjs, STOMP</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Category"><span class="categ html">JAVA</span></td>
+                                    <td data-th="Source"><a href="https://github.com/goodee-project/34_cabbageMarket/tree/master/cabbageMarket/src/main/java/com/gdj/cabbage/controller" target="_blank">Controller</a></td>
+                                    <td data-th="Related Keywords">Spring MVC, JAVA</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Category"><span class="categ html">JAVA</span></td>
+                                    <td data-th="Source"><a href="https://github.com/goodee-project/34_cabbageMarket/tree/master/cabbageMarket/src/main/java/com/gdj/cabbage/restapi" target="_blank">Rest Controller</a></td>
+                                    <td data-th="Related Keywords">Spring MVC, JAVA</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Category"><span class="categ html">JAVA</span></td>
+                                    <td data-th="Source"><a href="https://github.com/goodee-project/34_cabbageMarket/tree/master/cabbageMarket/src/main/java/com/gdj/cabbage/service" target="_blank">Service</a></td>
+                                    <td data-th="Related Keywords">Spring MVC, JAVA</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Category"><span class="categ css">Mybatis</span></td>
+                                    <td data-th="Source"><a href="https://github.com/goodee-project/34_cabbageMarket/tree/master/cabbageMarket/src/main/java/com/gdj/cabbage/mapper" target="_blank">Mapper</a></td>
+                                    <td data-th="Related Keywords">Mybatis, SQL</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Category"><span class="categ css">dependency</span></td>
+                                    <td data-th="Source"><a href="https://github.com/goodee-project/34_cabbageMarket/blob/master/cabbageMarket/pom.xml" target="_blank">pom.xml</a></td>
+                                    <td data-th="Related Keywords">Spring Boot</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                    
+                    
+                    <!-- 포트폴리오 엔트리: DVD대여점 -->
+                    <article role="article" id="work1" class="gallery-item" data-animation="fade-left">
+                        <figure role="group" class="gallery-figure">
+                            <div class="gallery-image">
+                                <img class="gallery-image-thumb" src="./img/sakilaImage.png" aria-describedby="work1Description">
+                            </div>
+                            <figcaption class="gallery-caption">
+                                <h3 class="gallery-title">DVD 대여점 프로그램</h3>
+                                <ul class="gallery-spec">
+                                	<li class="gallery-spec-item"><strong class="gallery-spec-key">진행기간</strong> <span class="gallery-spec-value">2021.05.26 - 2021.06.25(4주)</span></li>
+                                	<li class="gallery-spec-item"><strong class="gallery-spec-key">개발환경 OS</strong> <span class="gallery-spec-value">Window 10</span></li>
+                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">프로젝트 방식</strong> <span class="gallery-spec-value">SPRING MVC</span></li>
+                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">사용프로그램</strong> <span class="gallery-spec-value">SPRING TOOL SUITE 2.4.5, HEIDISQL 11.0.0.5919</span></li>
+                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">사용언어</strong>
+                                        <ul class="gallery-spec-value palette">
+                                            <li>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/pront.png" width="90" height="30"></div>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/java.png" width="30" height="30"></div>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/jquery.png" width="30" height="30"></div>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/mybatis.png" width="45" height="30"></div>
+											</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div id="work1Description">
+                                    <p><a href="https://sksskaw.kro.kr/sakila/index" target="_blank">DVD 대여점 프로그램</a>의 메인 페이지를 Dashboard로 디자인하여 간단한 통계 정보와 chart.js를 이용하여 그래프 통계를 출력하였습니다. 각각의 출력값들은 ajax를 이용한 비동기 통신으로 가져옵니다.</p>
+                                    <p></p>
+                                </div>
+                                <div class="ui-group">
+                                	<a role="button" class="ui-button" href="./sakila_function_definition.html" target="_blank">기능 정의서</a>
+                                	<a role="button" class="ui-button" href="./img/sakila_ERD.png" target="_blank">ERD</a>
+                                    <a role="button" class="ui-button" href="https://sksskaw.kro.kr/sakila/index" target="_blank">AWS</a>
+                                    <a role="button" class="ui-button" href="https://github.com/sksskaw/sakila_project/tree/master/sakila" target="_blank">Git</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <table class="gallery-table">
+                            <thead>
+                                <tr>
+                                    <th class="gallery-table-col category">Category</th>
+                                    <th class="gallery-table-col source">Source</th>
+                                    <th class="gallery-table-col keywords">Related keywords</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-th="Category"><span class="categ js">JS</span></td>
+                                    <td data-th="Source"><a href="https://github.com/sksskaw/sakila_project/blob/master/sakila/src/main/webapp/template/src/assets/js/demo_1/dashboard.js" target="_blank">dashboard.js</a></td>
+                                    <td data-th="Related Keywords">Jquery, Ajax, chart.js</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Category"><span class="categ html">JAVA</span></td>
+                                    <td data-th="Source"><a href="https://github.com/sksskaw/sakila_project/tree/master/sakila/src/main/java/com/gd/sakila/controller" target="_blank">Controller</a></td>
+                                    <td data-th="Related Keywords">Spring MVC, JAVA</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Category"><span class="categ html">JAVA</span></td>
+                                    <td data-th="Source"><a href="https://github.com/sksskaw/sakila_project/tree/master/sakila/src/main/java/com/gd/sakila/restapi" target="_blank">Rest Controller</a></td>
+                                    <td data-th="Related Keywords">Spring MVC, JAVA</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Category"><span class="categ html">JAVA</span></td>
+                                    <td data-th="Source"><a href="https://github.com/sksskaw/sakila_project/tree/master/sakila/src/main/java/com/gd/sakila/service" target="_blank">Service</a></td>
+                                    <td data-th="Related Keywords">Spring MVC, JAVA</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Category"><span class="categ css">Mybatis</span></td>
+                                    <td data-th="Source"><a href="https://github.com/sksskaw/sakila_project/tree/master/sakila/src/main/java/com/gd/sakila/mapper" target="_blank">Mapper</a></td>
+                                    <td data-th="Related Keywords">Mybatis, SQL</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Category"><span class="categ css">dependency</span></td>
+                                    <td data-th="Source"><a href="https://github.com/sksskaw/sakila_project/blob/master/sakila/pom.xml" target="_blank">pom.xml</a></td>
+                                    <td data-th="Related Keywords">Spring Boot</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+					
+					<!-- 포트폴리오 엔트리: Mall -->
+                    <article role="article" id="work1" class="gallery-item" data-animation="fade-left">
+                        <figure role="group" class="gallery-figure">
+                            <div class="gallery-image">
+                                <img class="gallery-image-thumb" src="./img/mall-admin.png" aria-describedby="work1Description">
+                            </div>
+                            <figcaption class="gallery-caption">
+                                <h3 class="gallery-title">Mall-client, Mall-admin</h3>
+                                <ul class="gallery-spec">
+                                	<li class="gallery-spec-item"><strong class="gallery-spec-key">진행기간</strong> <span class="gallery-spec-value">2021.05.26 - 2021.06.25(4주)</span></li>
+                                	<li class="gallery-spec-item"><strong class="gallery-spec-key">개발환경 OS</strong> <span class="gallery-spec-value">Window 10</span></li>
+                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">프로젝트 방식</strong> <span class="gallery-spec-value">SPRING MVC</span></li>
+                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">사용프로그램</strong> <span class="gallery-spec-value">SPRING TOOL SUITE 2.4.5, HEIDISQL 11.0.0.5919</span></li>
+                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">사용언어</strong>
+                                        <ul class="gallery-spec-value palette">
+                                            <li>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/pront.png" width="90" height="30"></div>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/java.png" width="30" height="30"></div>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/jquery.png" width="30" height="30"></div>
+                                            	<div class="langImg"><img class="gallery-image-thumb" src="./img/langIcon/mybatis.png" width="45" height="30"></div>
+											</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div id="work1Description">
+                                    <p><a href="https://sksskaw.kro.kr/mall_admin/login.jsp" target="_blank">E-book Store</a>전자도서를 구매할 수 있는 쇼핑몰 웹입니다. 회원관리 및 상품관리를 할 수 있는 관리자 페이지와, 회원이 책을 선택하여 구매할 수 있는 회원 페이지로 2개의 프로젝트로 구성되어있습니다. 하나의 DB를 같이 사용하며 상호작용 할 수 있습니다.</p>
+                                    <p></p>
+                                </div>
+                                <div class="ui-group">
+                                	<a role="button" class="ui-button" href="./img/mall_ERD.png" target="_blank">ERD</a>
+                                    <a role="button" class="ui-button" href="https://sksskaw.kro.kr/mall_admin/login.jsp" target="_blank">AWS</a>
+                                    <a role="button" class="ui-button" href="https://github.com/sksskaw/sakila_project/tree/master/sakila" target="_blank">Git</a>
+                                </div>
+
+                            </figcaption>
+                        </figure>
+                        <table class="gallery-table">
+                            <thead>
+                                <tr>
+                                    <th class="gallery-table-col category">Category</th>
+                                    <th class="gallery-table-col source">Source</th>
+                                    <th class="gallery-table-col keywords">Related keywords</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-th="Category"><span class="categ html">JAVA</span></td>
+                                    <td data-th="Source"><a href="https://github.com/sksskaw/mall-admin/tree/master/mall_admin/src/gdu/mall/dao" target="_blank">DAO</a></td>
+                                    <td data-th="Related Keywords">MVC, JAVA</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Category"><span class="categ html">JSP</span></td>
+                                    <td data-th="Source"><a href="https://github.com/sksskaw/mall-admin/tree/master/mall_admin/WebContent" target="_blank">VIEW</a></td>
+                                    <td data-th="Related Keywords">MVC, JSP</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <aside role="presentation" id="preload" aria-hidden="true">
+        <div class="throbber">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </aside>
+
+    <!-- 맨 위로 버튼 -->
+    <aside id="backToTop">
+        <a role="button" id="backToTopButton" href="#">
+            <i class="icon"></i>
+            <span class="text">page<br><b>top</b></span>
+        </a>
+    </aside>
+
+    <!-- 스크립트 -->
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/animation.js"></script>
+</body>
+</html>
